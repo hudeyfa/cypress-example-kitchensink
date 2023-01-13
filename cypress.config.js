@@ -5,7 +5,7 @@ module.exports = defineConfig({
     setupNodeEvents (on, config) {
       // implement node event listeners here
     },
-    baseUrl: 'http://localhost:8080',
+    baseUrl: 'https://example.cypress.io',
     excludeSpecPattern: '**/{1-getting-started,2-advanced-examples}/*',
     env: {
       'navbarText': 'cypress.io',
