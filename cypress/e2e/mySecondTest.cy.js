@@ -2,7 +2,7 @@
 
 // const navbarText = Cypress.env('navbarText')
 
-describe('My First Test', () => {
+describe('My Second Test', () => {
   // before(() => {
   //   cy.request('https://api.spacexdata.com/v3/missions').its('body').should('have.length', 10)
   // })
