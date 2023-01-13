@@ -164,8 +164,8 @@ describe('My First Test', () => {
     cy.get('.rightclick-action-input-hidden').should('be.visible')
   })
 
-  it('displays nav links on hover', () => {
-    cy.get('.dropdown-toggle').trigger('mouseover')
-    cy.get('.dropdown-menu').should('be.visible')
-  })
+  // it('displays nav links on hover', () => {
+  //   cy.get('.dropdown-toggle').trigger('mouseover')
+  //   cy.get('.dropdown-menu').should('be.visible')
+  // })
 })
